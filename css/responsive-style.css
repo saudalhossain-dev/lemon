@@ -1,0 +1,70 @@
+/* Media Query 1170px */
+@media (max-width: 1170px) {
+    /* Common CSS Part Start */
+    .section-subtitle {
+        max-width: 60%;
+    }
+    /* Common CSS Part End */
+    /* NavBar CSS Part Start */
+    .header .navbar {
+        background-size: cover;
+        padding: 2rem;
+    }
+    .header .navbar-nav {
+        margin-top: 2rem;
+    }
+    .header .navbar-nav .nav-link {
+        padding: 0.2rem 0.5rem;
+        margin-bottom: 1rem;
+    }
+    .header .navbar-nav .nav-link {
+        padding: 0.2rem 0.5rem;
+    }
+    /* NavBar CSS Part End */
+}
+/* Media Query 991px */
+@media (max-width: 991px) {
+    /* Common CSS Part Start */
+    .about .banner_section,
+    .product .banner_section,
+    .gallery .banner_section,
+    .contact .banner_section,
+    .distributors .banner_section {
+    padding-top: 12.5rem;
+    padding-bottom: 3rem;
+}
+    /* Common CSS Part End */
+}
+/* Media Query 767px */
+@media (max-width: 767px){
+    /* Common CSS Part Start */
+    body,
+    html {
+        font-size: 8px;
+    }
+    .section-subtitle {
+        max-width: 80%;
+    }
+    /* Common CSS Part End */
+    /* Banner CSS Part Start */
+    .banner_section {
+        min-height: 70vh;
+    }
+    .banner_section .carousel-item {
+        height: 70vh;
+    }
+    /* Banner CSS Part End */
+}
+/* Media Query 590px */
+@media (max-width: 590px) {
+    /* Common CSS Part Start */
+    body,
+    html {
+        font-size: 7px;
+    }
+    /* Common CSS Part End */
+}
+/* Media Query 391px */
+@media (max-width: 390.5px) {
+   
+}
